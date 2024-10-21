@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rckast</title>
+  <link rel="stylesheet" href="./Assets/css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Assets/fontello/fontello-a540fdbf/css/fontello.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="./Assets/img/rckast-trans.png" alt="Logotipo" class="logo">
+      <span class="nav-bar" id="btnMostrar" onclick="mostrarOcultar()"><i class="fa-solid fa-bars" onclick="changeIcon(this)"></i></span>
+      <nav class="navbar">
+        <ul>
+          <li><a href="./index.html" class="a1">Inicio
+            <span></span><span></span><span></span><span></span>
+          </a></li>
+          <li><a href="./quienesSomos.html">Quiénes somos
+            <span></span><span></span><span></span><span></span>
+          </a></li>
+          <li><a href="#" onclick="ShowHide()">Talento 
+            <span></span><span></span><span></span><span></span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </a>
+            <ul class="cont">
+              <li><a href="./ellas.html">Ellas
+                <span></span><span></span><span></span><span></span>
+              </a></li>
+              <li><a href="./ellos.html">Ellos
+                <span></span><span></span><span></span><span></span>
+              </a></li>
+            </ul>
+          </li>
+          <li><a href="./nuestroTrabajo.html" class="a6">Nuestro trabajo
+            <span></span><span></span><span></span><span></span>
+          </a></li>
+          <li><a href="#">Registrate aquí
+            <span></span><span></span><span></span><span></span>
+          </a></li>
+          <li><a href="./contacto.html">Contacto
+            <span></span><span></span><span></span><span></span>
+          </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="contactUs">
+          <div class="boxes">
+            <!-- Form -->
+            <div class="contact form">
+              <h3>Contactanos</h3>
+              <form>
+                <div class="formBox">
+                  <div class="row50">
+      
+                    <div class="input-group">
+                      <input type="text" required>
+                      <label for="">Nombre</label>
+                    </div>
+                    <div class="input-group">
+                      <input type="text" required>
+                      <label for="">Apellido</label>
+                    </div>
+                  </div>
+                  <div class="row50">
+                    <div class="input-group">
+                      <input type="email" required>
+                      <label for="">Email</label>
+                    </div>
+                    <div class="input-group">
+                      <input type="tel" required>
+                      <label for="">Celular</label>
+                    </div>
+                  </div>
+                  <div class="row100">
+                    <div class="inputBox">
+                      <span>Mensaje</span>
+                      <textarea name="" id="" ></textarea>
+                    </div>
+                  </div>
+                  <div class="row100">
+                    <div class="inputBox">
+                      <input type="submit" value="Enviar">
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- Info Box -->
+            <div class="contact info">
+              <h3>Contact Info</h3>
+              <div class="infoBox">
+                <div>
+                  <span><ion-icon name="location"></ion-icon></span>
+                  <p>Cda. Laurel #7, Col. San José de los Cedros, Del. Cuajimalpa, C.P. 05200</p>
+                </div>
+                <div>
+                  <span><ion-icon name="mail"></ion-icon></span>
+                  <a href="#" id="mail">rc.kasting@gmail.com</a>
+                </div>
+                <div>
+                  <span><ion-icon name="call"></ion-icon></span>
+                  <a href="#">55 5815 5366</a>
+                </div>
+              </div>
+            </div>
+            <!-- Map -->
+            <div class="contact map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.951434448539!2d-99.29254392596678!3d19.371255442639455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20725f434ebc5%3A0xe866eb927ab45887!2sLaurel%2017%2C%20El%20%C3%89bano%2C%20Cuajimalpa%20de%20Morelos%2C%2005200%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1724260832023!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-container">
+      <div class="footer-nav2">
+        <div class="box-1">
+          <p>Todos los derechos reservados</p>
+        </div>
+        <div class="box-2">
+          <a href="https://www.facebook.com/rckast" target="_blank"><span><ion-icon name="logo-facebook"></ion-icon></span></a>
+          <a href="https://www.instagram.com/agenciarckast" target="_blank"><span><ion-icon name="logo-instagram"></ion-icon></span></a>
+          <a href="https://twitter.com/rckast" target="_blank"><span><ion-icon name="logo-twitter"></ion-icon></span></a>
+        </div>
+        <div class="box-3">
+          <a href="https://api.whatsapp.com/send?phone=5584814576" class="btn-wsp" target="_blank">
+            <i class="icon-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./Assets/javascript/main.js"></script>
+  <script src="https://kit.fontawesome.com/c4517eca3f.js" crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
