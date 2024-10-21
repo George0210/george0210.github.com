@@ -1,0 +1,11 @@
+
+body {
+   background: linear-gradient(180deg,#a80236, #703bd1, #9fdeee) fixed;
+}
+
+footer {
+ tiktok
+ facebook
+ instagram
+ boton de whatsapp 
+}
