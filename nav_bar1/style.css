@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: azure;
+}
+
+header {
+    background-color: rgb(238, 108, 206);
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.6rem;
+}
+
+.navbar {
+	min-height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 24px;
+}
+
+.menu_bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 25px;
+}
+
+.nav_link:hover {
+	color: dodgerblue;
+}
+
+.nav-link {
+  transition: 2 ease;
+  -webkit-transition: 2 ease;
+  -moz-transition: 2 ease;
+  -ms-transition: 2 ease;
+  -o-transition: 2 ease;
+}
+
