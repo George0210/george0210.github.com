@@ -3,10 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive navbar</title>
+  <title>Document</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-  
+  <header>
+    <span class="nav-bar" id="btnMenu"><i class="fa-solid fa-bars"></i></span>
+    <nav class="main-nav">
+      <ul class="menu" id="menu">
+        <li class="menu_item"><a href="#" class="menu_link">Inicio</a></li>
+        <li class="menu_item"><a href="#" class="menu_link">Nosotros</a></li>
+        <li class="menu_item container_submenu">
+          <a href="#" class="menu_link submenu_btn">Tricot AGUJAS <i class="fa-solid fa-caret-down"></i></a>
+          <ul class="submenu">
+            <li class="menu_item"><a href="#" class="menu_link">Punto derecho</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Punto reves</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Puntadas</a></li>
+          </ul>
+        </li>
+        <li class="menu_item container_submenu">
+          <a href="#" class="menu_link submenu_btn">Crochet GANCHILLO <i class="fa-solid fa-caret-down"></i></a>
+          <ul class="submenu">
+            <li class="menu_item"><a href="#" class="menu_link">Punto derecho</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Punto reves</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Puntadas</a></li>
+          </ul>
+        </li>
+        <li class="menu_item"><a href="#" class="menu_link">Contacto</a></li>
+      </ul>
+    </nav>
+    <script src="./main.js"></script>
+  </header>
 </body>
 </html>
