@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu Responsivo</title>
   <link rel="stylesheet" href="/George0210.github.com/Ejemplos/20_Proyectos_CSS/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
   <nav>
     <div class="mobile">
       <div class="header">
         <div class="logo">Logo</div>
-        <div class="more"><button>More</button></div>
+        <div class="more"><button id="bMore"><span class="material-symbols-outlined">menu</span></button></div>
       </div>
-      <div class="links">
+      <div id="links" class="links">
         <a href="#">Inicio</a>
         <a href="#">Nosotros</a>
         <a href="#">Ubicación</a>
@@ -41,5 +42,15 @@
       </div>
     </div>
   </nav>
+  <script>
+
+    const bMore = document.querySelector('#bMore');
+    const links = document.querySelector('#links');
+
+    bMore.addEventListener('click', e => {
+      links.classList.toggle('collapsed');
+    });
+
+  </script>
 </body>
 </html>

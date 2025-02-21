@@ -11,6 +11,10 @@ nav {
   width: 100%;
 }
 
+.collapsed {
+  display: none;
+}
+
 nav .mobile {
   display: none;
 }
@@ -70,5 +74,47 @@ nav .desktop .secondary.mini {
 
   nav .secondary.mini:hover .submenu {
     display: block;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+
+@media screen and (max-width: 500px) {
+  
+  
+  nav .desktop {
+    display: none;
+  }
+
+  nav .mobile {
+    display: block;
+  }
+
+  nav .mobile .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+  }
+
+  nav .mobile .header .more button {
+    border: none;
+    background-color: #444;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
   }
 }
